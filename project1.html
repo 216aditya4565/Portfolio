@@ -39,9 +39,9 @@ First code major elements and then the minor elements in the webpage -->
                 I am Aditya, a passionate engineer with a degree in Computer Science from the University of Mumbai. I am
                 keen to learn new technologies and have developed an interest in the fields of Web Development and Data
                 Analytics.
-            </p>
 
-            <p>
+                <span class="break"></span>
+
                 During my initial years of engineering, I had done an internship in Web Development from Suven
                 Consultants and Technology Pvt. Ltd. During the internship, I created a website of a Shopping Cart
                 in which the user can view the products available online and can add to the cart if he/she wishes to
@@ -50,9 +50,8 @@ First code major elements and then the minor elements in the webpage -->
                 technologies such as HTML, CSS, PHP, JavaScript and back-end technologies such as PHP, XML and
                 AJAX and had my first practical experience in creating a full-fledged project. Also, My-SQL database
                 was used to store the products in the database.
-            </p>
 
-            <p>
+                <span class="break"></span>
                 I am enjoying while learning to code with Face Prep's Pro Grad program Front End Web Development
                 bootcamp.
             </p>
@@ -73,14 +72,6 @@ First code major elements and then the minor elements in the webpage -->
                 <h4>Interfacing Arduino with V-Python</h4>
                 <p>
                     This project focuses on the usage of Arduino Uno board and the Arduino IDE.
-                    This project creates a graphical interface, which, for our application, is a car as an
-                    example. An ultrasonic sensor would be placed at the back of the car. Whenever an
-                    object comes near the ultrasonic sensor, the distance between the object and
-                    ultrasonic sensor can be visually viewed on the screen which would be placed at the
-                    front and if the object crosses a particular distance limit, a beep sound would be
-                    heard which will warn the driver that the obstacle is going to hit the car. The distance
-                    of the car from the wall is recorded on the Arduino IDE. It is cost efficient as there is no
-                    need of a camera to be fitted.
                 </p>
             </article>
 
@@ -89,24 +80,14 @@ First code major elements and then the minor elements in the webpage -->
                 <h4>Loan Default Prediction using Machine Learning</h4>
                 <p>
                     The Loan Default Prediction System is useful for the banks to predict whether a
-                    customer will be a Loan Defaulter for their bank or not. It analyzes the previous records
-                    of the customers who have taken a loan and then detects whether a person can be a defaulter
-                    for the banks from which he would take a loan in later future. The Machine Learning algorithm used
-                    for the project is Logistic Regression.
+                    customer will be a Loan Defaulter for their bank or not.
                 </p>
             </article>
             <article>
                 <img src="assets/Coding-icon.svg" alt="Face Prep logo">
-                <h4>CrowdDynamics: A crowd density estimation approach using GPS mobility data for its dynamics and
-                    prediction</h4>
+                <h4>Crowd Dynamics</h4>
                 <p>
-                    Designing a system which will take the commuter’s GPS data of their current location
-                    inside the station and thereby get the crowd patterns at the railway station to tackle
-                    the problem of over-crowding at railway stations. This data is used for crowd
-                    estimation and prediction after certain intervals of time using a machine learning
-                    algorithm. The data is visualized using a heat map which is easier to monitor the
-                    crowd. This paper discusses on the uses of an interesting Machine Learning algorithm
-                    called as “Hidden Markov Model” for crowd prediction.
+                    Designing a system to tackle the problem of overcrowding at the railway stations.
                 </p>
             </article>
         </div>
@@ -116,48 +97,51 @@ First code major elements and then the minor elements in the webpage -->
 
     <section id="skills">
         <h3>SKILLS</h3>
-        <div>
-            <h4>TECHNICAL SKILLS</h4>
+        <div id="skills-container">
             <div>
-                <ul>
-                    <li>HTML</li>
-                    <li><progress value="75" max="100">25%</progress></li>
-                    <li>CSS</li>
-                    <li><progress value="60" max="100">60%></progress></li>
-                    <li>JAVASCRIPT</li>
-                    <li><progress value="10" max="100">10%></progress></li>
-                    <li>PYTHON</li>
-                    <li><progress value="50" max="100">50%></progress></li>
-                    <li>DATABASES</li>
-                    <li><progress value="80" max="100">80%>></progress></li>
-                </ul>
+                <h4>TECHNICAL SKILLS</h4>
+                <div>
+                    <ul>
+                        <li>HTML</li>
+                        <li><progress value="75" max="100">25%</progress></li>
+                        <li>CSS</li>
+                        <li><progress value="60" max="100">60%></progress></li>
+                        <li>JAVASCRIPT</li>
+                        <li><progress value="10" max="100">10%></progress></li>
+                        <li>PYTHON</li>
+                        <li><progress value="50" max="100">50%></progress></li>
+                        <li>DATABASES</li>
+                        <li><progress value="80" max="100">80%>></progress></li>
+                    </ul>
 
+                </div>
+            </div>
+            <div>
+                <h4>LANGUAGES</h4>
+                <div>
+                    <ul>
+                        <li>ENGLISH</li>
+                        <li><progress value="75" max="100">25%</progress></li>
+                        <li>HINDI</li>
+                        <li><progress value="85" max="100">25%</progress></li>
+                        <li>MARATHI</li>
+                        <li><progress value="90" max="100">25%</progress></li>
+                    </ul>
+
+                </div>
             </div>
         </div>
-        <div>
-            <h4>LANGUAGES</h4>
-            <div>
-                <ul>
-                    <li>ENGLISH</li>
-                    <li><progress value="75" max="100">25%</progress></li>
-                    <li>HINDI</li>
-                    <li><progress value="85" max="100">25%</progress></li>
-                    <li>MARATHI</li>
-                    <li><progress value="90" max="100">25%</progress></li>
-                </ul>
 
-            </div>
-        </div>
 
     </section>
 
     <footer id="contact">
         <h3>CONTACT</h3>
         <form action="">
-            <input type="text" placeholder="ENTER YOUR NAME">
-            <input type="text" placeholder="ENTER YOUR EMAIL">
-            <input type="text" placeholder="ENTER YOUR MESSAGE">
-            <input type="button" class="link-button" value="SEND MESSAGE">
+            <input class="input" type="text" placeholder="ENTER YOUR NAME">
+            <input class="input" type="text" placeholder="ENTER YOUR EMAIL">
+            <input class="input" type="text" placeholder="ENTER YOUR MESSAGE">
+            <input type="submit" class="link-button" value="SEND MESSAGE">
         </form>
     </footer>
 </body>
