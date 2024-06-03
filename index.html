@@ -6,6 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Aditya's Portfolio</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul ul {
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        header {
+            background: #f4f4f4;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        #portfolio div {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #portfolio article {
+            flex: 1;
+            padding: 1rem;
+            margin: 1rem;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #portfolio article a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        #portfolio article a:hover {
+            color: #007bff;
+        }
+
+        #skills-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #skills-container div {
+            flex: 1;
+            padding: 1rem;
+            margin: 1rem;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 1rem;
+        }
+
+        ul li h4 {
+            margin: 0;
+        }
+
+        /* Responsive styling */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+
+            #portfolio div, #skills-container {
+                flex-direction: column;
+            }
+
+            header, section {
+                padding: 1rem;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -31,7 +152,7 @@
         </div>
     </header>
     <section id="bio">
-        <img src="./assets/aditya.jpeg" alt="My image">
+        <img src="./assets/aditya.jpeg" alt="My image" style="max-width: 100%;">
         <article>
             <h2>Aditya Pawar</h2>
             <p>
@@ -54,7 +175,7 @@
                 All the details are included in my Resume below. 
             </p>
 
-            <a href="https://drive.google.com/file/d/1DsfJdKwQnHGskPk7tiNhyE-jeJzLZOhG/view?usp=sharing" class="link-button" target="blank">View my Resume</a>
+            <a href="https://drive.google.com/file/d/1DsfJdKwQnHGskPk7tiNhyE-jeJzLZOhG/view?usp=sharing" class="link-button" target="_blank">View my Resume</a>
         </article>
     </section>
 
