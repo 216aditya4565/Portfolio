@@ -20,12 +20,10 @@ nav ul {
     align-items: center;
     list-style: none;
     padding: 10px;
-
 }
 
 nav ul li {
     margin: 0 20px;
-
 }
 
 .logo-text {
@@ -57,7 +55,6 @@ nav ul li {
 header div p {
     font-size: 2.5em;
     font-weight: 200;
-
 }
 
 h1,
@@ -72,17 +69,14 @@ h2 {
 
 h1 {
     font-size: 5em;
-
 }
 
 h2 {
     font-size: 4em;
-
 }
 
 h3 {
     font-size: 2.5em;
-
 }
 
 h4 {
@@ -110,8 +104,6 @@ h4 {
 #bio {
     display: flex;
     align-items: center;
-
-
 }
 
 #bio article * {
@@ -120,7 +112,6 @@ h4 {
 
 .break {
     display: block;
-
 }
 
 #bio img {
@@ -132,13 +123,11 @@ h4 {
 
 p {
     font-size: 1.5em;
-
 }
 
 hr {
     width: 400px;
 }
-
 
 #portfolio {
     background: url(./assets/portfolio-background.svg);
@@ -183,7 +172,6 @@ hr {
     text-align: center;
     border-radius: 10px;
 }
-
 
 #portfolio div article p {
     padding: 0 5px;
@@ -255,4 +243,98 @@ progress[value]::-webkit-progress-bar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .logo-text {
+        font-size: 2em;
+    }
+
+    .nav-link {
+        font-size: 1.2em;
+    }
+
+    #home {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    header div p {
+        font-size: 1.5em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    .link-button {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    #bio {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #bio img {
+        margin: 20px 0;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    #portfolio div,
+    #skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #portfolio div article,
+    #skills-container div {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    progress[value] {
+        width: 100%;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    ul {
+        width: 100%;
+        padding: 0 20px;
+    }
 }
